@@ -1,0 +1,27 @@
+.logo-wrapper {
+    display: inline-flex;
+    vertical-align: middle;
+    padding-top: 10px;
+
+    .binary-logo-text {
+        >div {
+            width: 135px;
+        }
+
+        img.responsive {
+            width: 80%;
+            margin-top: 10px;
+        }
+    }
+
+    .logo-parent {
+        display: inline-flex;
+        align-items: center;
+
+        .logo {
+            width: 100px !important;
+            height: min-content !important;
+            margin-right: 10px;
+        }
+    }
+}
